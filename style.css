@@ -11,4 +11,19 @@ body {
 
 img {
     max-width: 50%;
+    transition: box-shadow 0.5s, filter 0.5s;
 }
+
+img:hover {
+    box-shadow: 0px 10px 35px 0px rgba(0,0,0,0.7);
+    filter: brightness(130%);
+}
+
+a {
+    transition: font-size 0.5s;
+}
+
+a:hover {
+    font-size: 120%;
+}
+
