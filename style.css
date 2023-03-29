@@ -4,7 +4,7 @@ html {
 
 body {
     width: auto;
-    font-size: 130%;
+    font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5%;
 }
@@ -27,3 +27,8 @@ a:hover {
     font-size: 120%;
 }
 
+@media (max-width: 800px) {
+    img {
+        max-width: 100%;
+    }
+}
